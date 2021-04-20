@@ -354,7 +354,7 @@ if [[ -n $KERNEL ]];then
 	packages
 	set_compiler "$KERNEL"
 	trap finish EXIT
-	[[ -f $(pwd)/${IMGNAME}.img ]] && rm -rf $(pwd)/${IMGNAME}.img 
+	[[ -f ${OUTPUT_IMG_DIR}/images ]] && rm -rf ${OUTPUT_IMG_DIR}/images
 	download_the_sources
 
 	if [[ ! -f ${WRKDIR}kernel_linux_${QARCH}/arch/${KARCH}/boot/${KERNEL_IMG} || ${KERNEL_CONFIGURE} || $(diff -s /tmp/config.kernel.tmp ${WRKDIR}kernel_linux_${QARCH}/config.kernel > /dev/null ; echo $?) -eq 1 ]];then
