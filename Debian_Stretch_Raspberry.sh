@@ -304,7 +304,7 @@ Debian_build() {
 	cp ${OUTPUT_IMG_DIR}/package_debian_based.sh /tmp
 	chmod +x /tmp/package_debian_based.sh
 	xterm -geometry 210x200+100-10 -e 'chroot '${MNTROOTFS}' /tmp/package_debian_based.sh'
-	xterm -geometry 210x200+100-10 -e 'chroot '${MNTROOTFS}' /bin/bash'
+	# xterm -geometry 210x200+100-10 -e 'chroot '${MNTROOTFS}' /bin/bash'
 
 }
 
