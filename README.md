@@ -43,4 +43,6 @@ If you need to configure the kernel, write the command with the switch "-c" at t
 
 I will maybe update the project for the raspberry pi zero 2 w
 
+=================================================================
+
 ![alt text](https://imgr.co/cache/img/963eaed8dd6e95aecc65ad40ae6b1b0d.jpg)
