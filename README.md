@@ -8,6 +8,7 @@ in 64bits: Debian_Stretch_Raspberry.sh -4 64bits
 in 32bits: Debian_Stretch_Raspberry.sh -4 32bits
 
 =================================================================
+
 Raspberry Pi 3 :
 
 in 64bits: Debian_Stretch_Raspberry.sh -3 64bits
@@ -15,9 +16,11 @@ in 64bits: Debian_Stretch_Raspberry.sh -3 64bits
 in 32bits: Debian_Stretch_Raspberry.sh -3 32bits
 
 =================================================================
+
 Raspberry Pi 2 in 32bits: Debian_Stretch_Raspberry.sh -2
 
 =================================================================
+
 Raspberry Pi 0,1 in 32bits: Debian_Stretch_Raspberry.sh -1
 
 =================================================================
