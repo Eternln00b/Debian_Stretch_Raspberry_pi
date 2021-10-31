@@ -42,3 +42,5 @@ Anyway, the usage is simple. if you want Debian for the Raspberry pi 4 in 64 bit
 If you need to configure the kernel, write the command with the switch "-c" at the end : " Debian_Stretch_Raspberry.sh -3 32bits -c "
 
 I will maybe update the project for the raspberry pi zero 2 w
+
+https://imgr.co/cache/img/963eaed8dd6e95aecc65ad40ae6b1b0d.jpg
