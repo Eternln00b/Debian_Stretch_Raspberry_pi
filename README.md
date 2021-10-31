@@ -33,7 +33,7 @@ kernel configuration : Debian_Stretch_Raspberry.sh -4 64bits -c
 The main purpose of my project, is to build a lightweight Debian image ( less than 950MB ) for Raspberry Pi hardwares. The builded image with my scripts is for a server using. 
 
 By default, the username is "pi", the password is "raspberry", the timezone is "Etc/Universal" and the hostname is "a404dded". 
-The logs are managed by busybox-syslogd. The closed sources firmwares is a squashed folder in the boot partition and mounted in the folder "/lib/firmware".
+The logs are managed by busybox-syslogd. The ssh server is managed by Dropbear. The closed sources firmwares is a squashed folder in the boot partition and mounted in the folder "/lib/firmware".
 
 So, if you want to change theses defaults setups or if you have a very specific project, you have to custom the scripts.
 
