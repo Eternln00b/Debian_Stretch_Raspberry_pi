@@ -30,7 +30,7 @@ kernel configuration : Debian_Stretch_Raspberry.sh -4 64bits -c
 
 [31/10/2021]
 
-The main purpose of my project, is to build a lightweight Debian image ( less than 950MB ) for Raspberry Pi hardwares. The builded image with my scripts is for a server using. 
+The main purpose of my project, is to build a lightweight Debian image ( less than 950MB ) for Raspberry Pi hardwares. The builded image with my scripts is for server use. 
 
 By default, the username is "pi", the password is "raspberry", the timezone is "Etc/Universal" and the hostname is "a404dded". 
 The logs are managed by busybox-syslogd. The ssh server is managed by Dropbear. The closed sources firmwares is a squashed folder in the boot partition and mounted in the folder "/lib/firmware". 
