@@ -2,7 +2,9 @@
 usage : 
 
 Raspberry Pi 4 :
+
 in 64bits: Debian_Stretch_Raspberry.sh -4 64bits
+
 in 32bits: Debian_Stretch_Raspberry.sh -4 32bits
 =================================================================
 Raspberry Pi 3 in 64bits: Debian_Stretch_Raspberry.sh -3 64bits
