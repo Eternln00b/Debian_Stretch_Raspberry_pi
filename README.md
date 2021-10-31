@@ -32,7 +32,8 @@ kernel configuration : Debian_Stretch_Raspberry.sh -4 64bits -c
 
 The main purpose of my project, is to build a lightweight Debian image ( less than 950MB ) for Raspberry Pi hardwares. 
 
-By default, the builded image with my scripts is for server use. the username is "pi", the password is "raspberry", the timezone is "Etc/Universal" and the hostname is "a404dded". 
+By default, the builded image with my scripts is for server use. 
+the username is "pi", the password is "raspberry", the timezone is "Etc/Universal" and the hostname is "a404dded". 
 The logs are managed by busybox-syslogd. The ssh server is managed by Dropbear. The closed sources firmwares is a squashed folder in the boot partition and mounted in the folder "/lib/firmware". 
 
 For the task scheduling, you have to use the service manager systemD. Cron is disabled.
