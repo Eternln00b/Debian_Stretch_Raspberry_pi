@@ -47,4 +47,4 @@ I will maybe update the project for the raspberry pi zero 2 w
 
 =================================================================
 
-![alt text](https://imgr.co/cache/img/963eaed8dd6e95aecc65ad40ae6b1b0d.jpg)
+![alt text](https://zupimages.net/up/21/48/f5wm.png)
